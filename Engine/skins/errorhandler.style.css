@@ -1,0 +1,42 @@
+body {
+    background: none repeat scroll 0 0 #2d313d;
+}
+table {
+    background: none repeat scroll 0 0 #252731;
+    font-family: open sans,Trebuchet MS;
+    align-items: center;
+    margin: 30px auto;
+    color: #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+.table_header {
+    border-bottom: 2px solid #f8be4f;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+.table_desc {
+    color: #f8be4f;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+tr:last-of-type .table_general {
+    border-bottom: 0 none !important;
+}
+.table_general {
+	font-family: monospace; 
+	padding: 10px;
+}
+.table_general strong {
+	color: #f8be4f;
+	display: inline-block;
+	width: 130px;
+}
+
+.table_top_border {
+	border-top: 2px solid #f8be4f;
+}

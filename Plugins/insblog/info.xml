@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<data>
+		<name>IN.Blog</name>
+		<author>INS</author>
+		<description>Blog addon For IN.CMS</description>
+		<version>1.0.1</version>
+		<version_code>101</version_code>
+		<website>http://infusionservices.net</website>
+	</data>
+ </info>

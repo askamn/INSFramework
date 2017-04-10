@@ -1,0 +1,4 @@
+Date: 2015-05-28 09:35:29
+Info: Last attempt to fetch from remote cache failed.
+--------------------------------------------------
+

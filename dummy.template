@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Begin -->
+<html>
+<head>
+	<title>{%TITLE%}</title>
+	{%HEADERINCLUDE%}
+</head>
+<body>
+  {%HEADER%}
+<div class="ins-fs">
+	<div class="ins-section">
+      
+      {$form}
+      
+		<form class="ins-fs-form" name="registerform" method="post" action="{$this->link}">
+			<div id="ins-fs-screen" class="ins-fs-screen ins-fs-screen1">
+				<div class="ins-fs-row">
+					<span class="ins-fs-legend">{members_whatwouldyouliketobecalled}</span>
+				</div>		
+				<div class="ins-fs-row">
+					<input type="text" class="ins-fs-textbox" placeholder="{members_placeholder_username}" name="username" />
+				</div>
+			
+				<div class="ins-fs-row">
+					<span class="ins-fs-legend">{members_whatisyouremail}<span class="ins-fs-ff-info"><i class="fa fa-info"></i><span class="ins-fs-ff-text">{members_wewontspamyou}</span></span></span>
+				</div>
+				<div class="ins-fs-row">
+					<input type="email" class="ins-fs-textbox" placeholder="{members_placeholder_email}" name="email" />
+				</div>
+			
+				<div class="ins-fs-row">
+					<span class="ins-fs-legend">{members_whatpasswordyouprefer}</span>
+				</div>
+				<div class="ins-fs-row">
+					<input type="password" class="ins-fs-textbox" placeholder="{members_placeholder_password}" name="password" />
+				</div>
+			
+				<div class="ins-fs-row">
+					<span class="ins-fs-legend">
+						{members_pleasetypeitagain}
+						<span class="ins-fs-ff-info">
+							<i class="fa fa-info"></i>
+							<span class="ins-fs-ff-text">{members_wejustwanttomakesure}</span>
+						</span>
+					</span>
+				</div>
+				<div class="ins-fs-row">
+					<input type="password" class="ins-fs-textbox" placeholder="{members_placeholder_confirmpassword}" name="password2" />
+				</div>
+				<div class="ins-fs-row">
+					<span class="ins-fs-next"><i class="fa fa-chevron-right"></i></span>
+				</div>
+			
+				<div class="ins-fs-row">
+					<span class="ins-fs-legend">{members_pleaseanswerthisquestion}</span>
+				</div>
+				<div class="ins-fs-row">
+					<input type="text" class="ins-fs-textbox" placeholder="{$question}" name="question" />
+				</div>
+				<div class="ins-fs-row">
+	              <button type="submit" name="submit" class="ins-fs-btn">{members_register}</button>
+				</div>
+			</div>
+		</form>
+	</div>
+      <span class="ins-fs-next"><i class="fa fa-chevron-right"></i></span>
+	<nav class="ins-fs-navigation">
+		<span class="ins-fs-navitem ins-fs-navitemactive" rel="ins-fs-screen1"></span>
+		<span class="ins-fs-navitem" rel="ins-fs-screen2"></span>
+		<span class="ins-fs-navitem" rel="ins-fs-screen3"></span>
+		<span class="ins-fs-navitem" rel="ins-fs-screen4"></span>
+		<span class="ins-fs-navitem" rel="ins-fs-screen5"></span>
+		<span class="ins-fs-navitem" rel="ins-fs-screen6"></span>
+	</nav>
+</div>
+  
+  {%FOOTER%}
+  
+</body>
+</html>
+
+

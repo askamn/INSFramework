@@ -1,0 +1,205 @@
+/** 
+ * <pre>
+ * Infusion Web Suite
+ * IN.Cms v0.5.0
+ * Asset Stylesheet
+ * Last Updated: $Date: 2014-10-26 22:40:30 (Sun, 26 Oct 2014) $
+ * </pre>
+ * 
+ * @author      $Author: AskAmn$
+ * @copyright   (c) 2014 Infusion Web Suite
+ * @license     http://www.infusionengine.com/licenses/license.php?view=main&version=2014
+ * @package     In.WebSuite
+ * @since       0.5.3; 22 August 2014
+ * @version     $Revision:  01224 $
+ */
+
+.infusionLoaderContainer {
+    align-items: center;
+    background: none repeat scroll 0 0 #34495e;
+    flex: 0 0 100%;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    opacity: 0.9;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.infusionLoader {
+    background: url("SVG/rings.svg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 45px;
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+    width: 45px;
+}
+.infusionGenericLoaderContainer {
+    align-items: center;
+    background: #2d313d;
+    flex: 0 0 100%;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: none;
+}
+.infusionGenericLoader {
+    background: url("SVG/three-dots.svg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 30px;
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+    width: 120px;
+}
+.infusionBannerContainer {
+    align-items: center;
+    background: #2d313d; /* Old browsers */
+    background: -moz-linear-gradient(top, #2d313d 0%, #252731 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d313d), color-stop(100%,#252731)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2d313d 0%,#252731 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2d313d 0%,#252731 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2d313d 0%,#252731 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #2d313d 0%,#252731 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d313d', endColorstr='#252731',GradientType=0 ); /* IE6-9 */    
+    display: none;
+    flex: 0 0 100%;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+.infusionBanner {
+    position: relative;
+    top: -50px;
+}
+.infusionBanner:before {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #fff;
+    content: "Infusion Web Engine";
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: calc(13vh + 40px);
+    font-variant: small-caps;
+    letter-spacing: -6px;
+    padding: 18px 26px 18px 18px;
+    text-shadow: 1px 7px 2px #000;
+}
+.infusionMsgBoxContainer {
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    display: none;
+    text-align: center;
+}
+.infusionMsgBox {
+    background: none repeat scroll 0 0 #34495e;
+    cursor: default;
+    font-weight: bold;
+    padding: 11px 15px;
+    width: 50%;
+    margin: auto;
+}
+.btn {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 2px;
+    color: #6d6d6e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+    outline: none;
+}
+.ins-btn {
+    background: #2d313d;
+    color: #AEB2B7!important;
+}
+.ins-btn:hover {
+    color: #FFF !important;
+}
+.btn-big {
+  padding: 10px 15px !important;
+}
+.infusionModalContainer {
+    align-items: center;
+    display: none;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+.infusionModalHeader {
+    background: #2d313d; /* Old browsers */
+    background: -moz-linear-gradient(top, #2d313d 0%, #252731 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d313d), color-stop(100%,#252731)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2d313d 0%,#252731 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2d313d 0%,#252731 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2d313d 0%,#252731 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #2d313d 0%,#252731 100%); /* W3C */
+    width: 100%;
+    flex: 0 0 100%;
+    color: #fff;
+}
+.infusionModal {
+    color: #fff;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: -200px;
+    position: relative;
+}
+.infusionHasLoader {
+  background: #2d313d !important;
+  background-image: url(SVG/rings.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+/* Hide the next element */
+.infusionHasLoader div {
+    visibility: hidden;
+}
+
+.ins-loader {
+    left: 50%;
+    right: 50%;
+    display: block;
+}
+.ins-loader__inner {
+    background: url("SVG/rings.svg") no-repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.visible {
+    display: block;
+}
+.visible-inline-block {
+    display: inline-block;
+}

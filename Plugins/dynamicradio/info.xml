@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<data>
+		<name>DynamicRadio</name>
+		<author>INS</author>
+		<description>Multiple tools for DynamiRadio's Website.</description>
+		<version>1.0.0</version>
+		<version_code>100</version_code>
+		<website>http://infusionservices.net</website>
+	</data>
+ </info>

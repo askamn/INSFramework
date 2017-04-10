@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<data>
+		<name>IN.Talk</name>
+		<author>INS</author>
+		<description>Talk is the core app for messaging.</description>
+		<version>1.0.1</version>
+		<version_code>101</version_code>
+		<website>http://infusionservices.net</website>
+	</data>
+ </info>
